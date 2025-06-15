@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: "Inter", sans-serif;
+    --font-cinzel: "Cinzel", serif;
+    --font-fira-code: "Fira Code", monospace;
+  }
+}
+
+@layer components {
+  .rpg-border {
+    @apply border-2 border-amber-600 bg-gradient-to-br from-amber-900/20 to-amber-800/10 backdrop-blur-sm;
+    box-shadow: inset 0 1px 0 rgba(251, 191, 36, 0.3), 0 0 20px rgba(251, 191, 36, 0.1);
+  }
+
+  .rpg-button {
+    @apply px-6 py-3 bg-gradient-to-r from-amber-700 to-amber-600 text-amber-100 font-semibold rounded-lg border-2 border-amber-500 shadow-lg transition-all duration-200 hover:from-amber-600 hover:to-amber-500 hover:shadow-amber-500/25 hover:scale-105 active:scale-95;
+  }
+
+  .rpg-card {
+    @apply rpg-border rounded-lg p-6 transition-all duration-300 hover:border-amber-500 hover:shadow-lg hover:shadow-amber-500/20 hover:-translate-y-1;
+  }
+
+  .health-bar {
+    @apply w-full h-4 bg-red-900 rounded-full overflow-hidden border border-red-700;
+  }
+
+  .mana-bar {
+    @apply w-full h-4 bg-blue-900 rounded-full overflow-hidden border border-blue-700;
+  }
+
+  .xp-bar {
+    @apply w-full h-3 bg-green-900 rounded-full overflow-hidden border border-green-700;
+  }
+
+  .custom-cursor {
+    cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="%23f59e0b" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>')
+      12 12, auto;
+  }
+}
+
+body {
+  @apply custom-cursor;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    box-shadow: 0 0 20px rgba(251, 191, 36, 0.2);
+  }
+  to {
+    box-shadow: 0 0 30px rgba(251, 191, 36, 0.4);
+  }
+}
