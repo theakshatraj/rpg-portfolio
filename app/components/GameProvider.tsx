@@ -34,6 +34,8 @@ export function GameProvider({ children }: { children: ReactNode }) {
       "cs-foundation-2022",
       "fullstack-mastery-2023",
       "professional-debut-2024",
+      "thinkbox",
+      "memegif-studio",
       "park-eazygo",
       "starwave-influencer",
       "moodify-ml",

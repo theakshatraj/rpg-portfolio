@@ -19,10 +19,21 @@ const skills = [
 const achievements = [
   { title: "CS Foundation Master", description: "Started Computer Science journey at VIT Chennai", date: "2022" },
   { title: "Full Stack Awakening", description: "Mastered MEAN and MERN stack development", date: "2023" },
-  { title: "Professional Debut", description: "Started professional work experience", date: "2024" },
+  { title: "Professional Debut", description: "Started professional work experience and freelancing", date: "2024" },
   { title: "AI/ML Pioneer", description: "Built emotion-driven music recommendation system", date: "2024" },
-  { title: "Freelance Warrior", description: "Successfully completed international Upwork projects", date: "2024" },
-  { title: "Startup Adventurer", description: "Currently interning at Daira Edtech", date: "2025" },
+  {
+    title: "Winner - Smart India Hackathon",
+    description: "Internal SIH competition - Problem Statement SIH1515",
+    date: "2023",
+  },
+  { title: "Startup Warrior", description: "Full Stack Developer Intern at Daira Edtech", date: "2025" },
+  { title: "AI Full Stack Developer", description: "Persist Ventures - Remote position in Los Angeles", date: "2025" },
+  { title: "Winner - Startupathon 2025", description: "Only team to deliver complete product on time", date: "2025" },
+  {
+    title: "IBM Watsonx Gen AI Certified",
+    description: "Scored 98% on IBM Watsonx Gen AI Certification",
+    date: "2025",
+  },
 ]
 
 const timeline = [
@@ -33,15 +44,20 @@ const timeline = [
   },
   {
     year: "2023",
-    event: "Full Stack Development Journey",
-    description: "Mastered MEAN/MERN stack, built multiple projects",
+    event: "Full Stack Development & Hackathon Victory",
+    description: "Mastered MEAN/MERN stack, won Smart India Hackathon (Internal)",
   },
   {
     year: "2024",
-    event: "Professional Experience Begins",
-    description: "Freelance work, internships, and real-world applications",
+    event: "Professional Experience & Freelance Work",
+    description: "Freelance projects, multiple AI/ML applications, e-commerce platforms",
   },
-  { year: "2025", event: "Current Adventures", description: "Daira Edtech internship, expanding AI/ML expertise" },
+  {
+    year: "2025",
+    event: "Startup & Professional Growth",
+    description:
+      "Daira Edtech internship (Mar-Jul), Persist Ventures (Jul-Sep) as AI Full Stack Developer, Startupathon winner",
+  },
 ]
 
 export default function CharacterPage() {

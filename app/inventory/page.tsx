@@ -29,6 +29,7 @@ const skillCategories = {
       { name: "Express.js", level: 90, rarity: "Epic", description: "Fast, unopinionated web framework" },
       { name: "MongoDB", level: 88, rarity: "Epic", description: "NoSQL document database" },
       { name: "MySQL", level: 85, rarity: "Rare", description: "Relational database management" },
+      { name: "PostgreSQL", level: 80, rarity: "Rare", description: "Advanced relational database" },
       { name: "JSON", level: 92, rarity: "Common", description: "Data interchange format" },
       { name: "Supabase", level: 78, rarity: "Rare", description: "Open source Firebase alternative" },
       { name: "REST APIs", level: 90, rarity: "Epic", description: "RESTful service architecture" },

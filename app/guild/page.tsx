@@ -310,12 +310,12 @@ export default function GuildPage() {
                   <div className="text-sm text-amber-300">Completed Projects</div>
                 </div>
                 <div className="text-center p-4 bg-slate-800/50 rounded-lg border border-amber-700/30">
-                  <div className="text-2xl font-bold text-amber-400">15+</div>
+                  <div className="text-2xl font-bold text-amber-400">20+</div>
                   <div className="text-sm text-amber-300">Technologies Mastered</div>
                 </div>
                 <div className="text-center p-4 bg-slate-800/50 rounded-lg border border-amber-700/30">
                   <div className="text-2xl font-bold text-amber-400">1+</div>
-                  <div className="text-sm text-amber-300">Years Experience</div>
+                  <div className="text-sm text-amber-300">Years Professional Experience</div>
                 </div>
                 <div className="text-center p-4 bg-slate-800/50 rounded-lg border border-amber-700/30">
                   <div className="text-2xl font-bold text-amber-400">7.4</div>
@@ -345,10 +345,19 @@ export default function GuildPage() {
                   </div>
                 </div>
                 <div className="flex items-start space-x-3 p-3 bg-purple-900/20 rounded-lg border border-purple-700/30">
-                  <span className="text-purple-400">⚡</span>
+                  <span className="text-purple-400">🏆</span>
                   <div>
-                    <div className="text-sm font-medium text-purple-300">Response Time</div>
-                    <div className="text-xs text-purple-200">Usually within 24 hours</div>
+                    <div className="text-sm font-medium text-purple-300">Certifications & Achievements</div>
+                    <div className="text-xs text-purple-200">
+                      IBM Watsonx Gen AI (98%), Startupathon 2025 Winner, Smart India Hackathon Winner
+                    </div>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3 p-3 bg-amber-900/20 rounded-lg border border-amber-700/30">
+                  <span className="text-amber-400">⚡</span>
+                  <div>
+                    <div className="text-sm font-medium text-amber-300">Response Time</div>
+                    <div className="text-xs text-amber-200">Usually within 24 hours</div>
                   </div>
                 </div>
               </div>
